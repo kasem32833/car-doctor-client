@@ -43,9 +43,8 @@ const Register = () => {
               </label>
               <input
                 type="text"
-                placeholder="email"
+                placeholder="Your Name"
                 className="input input-bordered"
-                required
                 name="name"
               />
             </div>
@@ -55,9 +54,8 @@ const Register = () => {
               </label>
               <input
                 type="text"
-                placeholder="email"
+                placeholder="Your Image"
                 className="input input-bordered"
-                required
                 name="image"
               />
             </div>
