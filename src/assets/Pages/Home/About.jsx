@@ -1,5 +1,5 @@
-import person from '../../../../public/images/about_us/person.jpg'
-import parts from '../../../../public/images/about_us/parts.jpg'
+import person from '/images/about_us/person.jpg'
+import parts from '/images/about_us/parts.jpg'
 const About = () => {
   return (
     <div className="hero min-h-screen bg-base-200">

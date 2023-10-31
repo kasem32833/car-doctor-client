@@ -1,12 +1,12 @@
-import slider1 from '../../../../public/images/homeCarousel/1.jpg'
-import slider2 from '../../../../public/images/homeCarousel/2.jpg'
-import slider3 from '../../../../public/images/homeCarousel/3.jpg'
-import slider4 from '../../../../public/images/homeCarousel/4.jpg'
+import slider1 from '/images/homeCarousel/1.jpg'
+import slider2 from '/images/homeCarousel/2.jpg'
+import slider3 from '/images/homeCarousel/3.jpg'
+import slider4 from '/images/homeCarousel/4.jpg'
 
 const Banner = () => {
     
   return (
-    <div className="carousel w-full h-[550px]">
+    <div className="carousel max-w-7xl mx-auto h-[550px]">
       <div id="slide1" className="carousel-item relative w-full">
         <img
           src={slider1}
